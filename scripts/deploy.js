@@ -3,7 +3,7 @@ async function main() {
 
    const HelloWorld = await ethers.getContractFactory('HelloWorld');
 
-   const hw = await HelloWorld.deploy("Hello World! Bingo");
+   const hw = await HelloWorld.deploy("Hello Dev community!");
 
    console.log('Contract Deployed to:', hw.address);
 }
